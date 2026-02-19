@@ -31,6 +31,7 @@
 | [Tech](#-tech) |
 | [Docs](#-documentation) |
 | [Sources](#-content-sources) |
+| [Summary (how to do)](#-summary-how-to-do-from-video-transcripts) |
 | [→ GitHub](#-repository) |
 
 *Scroll this page up/down and use the links above to jump to any section.*
@@ -130,6 +131,7 @@ npm start
 | [**TUTORIAL**](docs/TUTORIAL.md) | Step-by-step: using the app and following the curriculum |
 | [**MANUAL**](docs/MANUAL.md) | Full user manual, editing content, troubleshooting |
 | [**ADS**](docs/ADS.md) | Ad copy for Facebook, Instagram, Threads, Blogger, Naver, Tistory, WordPress, Newsletter, Email |
+| [**VIDEO_TRANSCRIPT_SUMMARY**](docs/VIDEO_TRANSCRIPT_SUMMARY.md) | Full “How to do” summary from the Ralph Loop (랄프루프) video transcript |
 
 ---
 
@@ -144,6 +146,24 @@ Concepts are synthesized from:
 - Solo founder guides (2025–2026): validation, tech stack, distribution, AI
 
 *No duplicate concepts; each idea appears once under the most relevant category.*
+
+---
+
+## 📹 Summary: How to do (from video transcripts)
+
+*From the Ralph Loop (랄프루프) video: AI 코딩이 기대보다 안 되는 이유는 작업 방식이 채팅형이기 때문 → 반복 가능한 작업 시스템으로 바꾸는 방법.*
+
+| Step | What to do |
+|------|------------|
+| 1 | **Good prompts as baseline:** Write clear **completion conditions** (more important than length). |
+| 2 | **Repeat execution:** Run in loops; save results to **files and markdown history** (or tests). |
+| 3 | **Trust file state:** Prefer file state over chat context as the result (context resets). |
+| 4 | **Task size:** 20–60 min per task; commit or ping-pong at that unit. |
+| 5 | **No tests?** e.g. 3 consecutive failures → redefine task, record reason, or give feedback. |
+| 6 | **Cycle:** Plan once → build multiple times → check commit and test results; if wrong, Ctrl+C, adjust prompt/agent, restart. |
+
+**In short:** Ralph Loop = 좋은 프롬프트 기준으로 반복 실행 → 결과를 파일·막기·히스토리에 남기고 테스트로 품질 강화. 사람은 코더에서 **운영자·품질 설계자**로; 완료 조건이 없으면 무한 반복만으로는 좋은 품질 나오지 않음. 도구: Awesome Agent, Ralph Claude Code, Codex how-to-ralph.  
+→ Full summary: [docs/VIDEO_TRANSCRIPT_SUMMARY.md](docs/VIDEO_TRANSCRIPT_SUMMARY.md)
 
 ---
 

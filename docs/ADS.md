@@ -184,3 +184,13 @@ Link: [YOUR_URL]
 | Email       | Short or long | Link in body   |
 
 Replace `[YOUR_URL]` in every section with your actual app URL before publishing.
+
+---
+
+## Summary: How to do (from video transcripts)
+
+*From the Ralph Loop (랄프루프) video: AI를 채팅 상대가 아니라 반복 작업 시스템으로.*
+
+- **In short:** Ralph Loop = good prompts → repeat execution → results in files/history or tests → improve by process quality. Clear completion conditions; 20–60 min task units; trust file state; operator/quality designer role.
+- **Steps:** (1) Set completion conditions, (2) Run loops, save to files, (3) Commit at unit, check commit and test, (4) Adjust prompt/agent and restart if direction wrong. Tools: Awesome Agent, Ralph Claude Code, how-to-ralph.
+- **Remember:** No end condition → infinite loop won’t yield good quality. Full summary: [VIDEO_TRANSCRIPT_SUMMARY.md](./VIDEO_TRANSCRIPT_SUMMARY.md).

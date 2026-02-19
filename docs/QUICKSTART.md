@@ -50,4 +50,14 @@ Runs the app on port 3000 (or `PORT` env). Use a process manager (e.g. PM2) or h
 
 ---
 
+## Summary: How to do (from video transcripts)
+
+*From the Ralph Loop video: 반복 가능한 작업 시스템으로 품질 올리기.*
+
+- **In short:** Good prompts → repeat execution → file/markdown history (or tests) → improve by process quality. Trust file state over context; 20–60 min task units; clear completion conditions.
+- **Steps:** (1) Write clear completion conditions, (2) Run in loops and save to files/history, (3) Commit or ping-pong at task unit, (4) Check commit and test each cycle; adjust prompt and restart if direction wrong.
+- **Remember:** You’re operator/quality designer; no end condition = infinite loop won’t yield good quality. See [VIDEO_TRANSCRIPT_SUMMARY.md](./VIDEO_TRANSCRIPT_SUMMARY.md) for full summary.
+
+---
+
 **Next:** See [TUTORIAL.md](./TUTORIAL.md) for a guided learning path, or [MANUAL.md](./MANUAL.md) for full feature reference.

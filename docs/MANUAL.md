@@ -93,4 +93,14 @@ After editing, run `npm run build` (or keep `npm run dev` running) to see change
 
 ---
 
+## Summary: How to do (from video transcripts)
+
+*From the Ralph Loop video: 반복 가능한 프로세스 품질로 업그레이드.*
+
+- **In short:** Good prompts → repeat execution → file/markdown history (or tests) → process quality. Trust file state over context; 20–60 min tasks; clear completion conditions; no end condition = no good quality.
+- **Steps:** (1) Write completion conditions, (2) Run in loops, save to files, (3) Commit at task unit, check commit and test each cycle, (4) If wrong direction: stop, adjust prompt/agent, restart.
+- **Remember:** Operator/quality designer role; tools: Awesome Agent, Ralph Claude Code, Codex how-to-ralph. Full summary: [VIDEO_TRANSCRIPT_SUMMARY.md](./VIDEO_TRANSCRIPT_SUMMARY.md).
+
+---
+
 **See also:** [README.md](../README.md) (project overview), [QUICKSTART.md](./QUICKSTART.md) (run in 2 min), [TUTORIAL.md](./TUTORIAL.md) (learning path).

@@ -61,4 +61,15 @@ Do the categories in order. For each concept, follow the steps in the table.
 - **One segment first.** Use the “Target customer & value proposition” concept in Category 3 to pick one segment and one sentence.
 - **Reuse “Full curriculum.”** Bookmark `/all` for quick lookup without redundancy.
 
+---
+
+## Summary: How to do (from video transcripts)
+
+*From the Ralph Loop (랄프루프) video: 채팅형이 아니라 반복 실행·파일 상태·품질로 업그레이드.*
+
+- **In short:** Ralph Loop = good prompts as baseline → repeat execution → results in files/markdown history (or tests) → improve by repeatable process quality. Trust file state; task separation (20–60 min); clear completion conditions.
+- **Steps:** (1) Set completion conditions, (2) Run loops and save to files/history, (3) Commit or ping-pong at task unit, (4) Plan once, build multiple times, check commit and test; Ctrl+C and adjust if direction wrong.
+- **Remember:** Role shifts from coder to operator/quality designer; good prompts amplify quality. Full summary: [VIDEO_TRANSCRIPT_SUMMARY.md](./VIDEO_TRANSCRIPT_SUMMARY.md).
+---
+
 **Next:** [MANUAL.md](./MANUAL.md) for full feature and reference details.
